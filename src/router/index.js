@@ -36,7 +36,7 @@ let isLoginRequired = routeName => {
 }
 
 const router = new Router({
-  // mode: 'history',
+  mode: 'history',
   scrollBehavior: () => ({
     y: 0,
   }),
